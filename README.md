@@ -1,0 +1,2 @@
+# staticNode
+Static Node
