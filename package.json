@@ -1,8 +1,14 @@
 {
+  "name": "node-example",
+  "version": "0.0.1",
   "dependencies": {
-    "moment": "2.3.x",
-    "underscore": "1.4.x",
-    "typogr": "0.5.x"
-  },
+  "moment": "~2.1",
+  "underscore": "1.4.x",
+  "typogr": "0.5.x",
+  "wintersmith": "2.x",
+  "director": "~1.2.1",
+  "ecstatic": "~0.4.13",
+  "union": "~0.3.8",
+},
   "repository": "none"
 }
