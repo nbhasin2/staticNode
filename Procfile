@@ -1,1 +1,1 @@
-web: wintersmith preview --chdir contents --port $PORT
+web: node index.js

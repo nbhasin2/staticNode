@@ -1,14 +1,32 @@
 {
-  "name": "node-example",
+  "name": "node-static-server-template",
   "version": "0.0.1",
+  "description": "Template for deploying static sites with union, director, and ecstatic",
+  "main": "index.js",
   "dependencies": {
-  "moment": "~2.1",
-  "underscore": "1.4.x",
-  "typogr": "0.5.x",
-  "wintersmith": "2.x",
-  "director": "~1.2.1",
-  "ecstatic": "~0.4.13",
-  "union": "~0.3.8"
-},
-  "repository": "none"
+    "director": "~1.2.1",
+    "ecstatic": "~0.4.13",
+    "union": "~0.3.8",
+    "moment": "~2.1",
+    "underscore": "1.4.x",
+    "typogr": "0.5.x",
+    "wintersmith": "2.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ngoldman/node-static-server-template.git"
+  },
+  "bugs": {
+    "url" : "http://github.com/ngoldman/node-static-server-template/issues"
+  },
+  "author": "Nate Goldman <nate@ngoldman.me>",
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": "0.10.x",
+    "npm":  "1.3.x"
+  }
 }
